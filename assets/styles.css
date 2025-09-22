@@ -428,13 +428,13 @@ main {
     border-radius: 8px;
     background-color: rgba(60, 60, 60, 0.6);
 }
-#faq-text {
-    background-image: url(https://github.com/RH1945/love-running/blob/c290ec4b148a9ac5725f372eefdcb49985a6133a/assets/images/lrimg9.webp);
-    background-size: cover;
-    background-position: 75%;
-    padding: 20px 10% 0 10%;
-    flex-grow: 1;
-}
+/*#faq-text {*/
+/*    background-image: url(https://github.com/RH1945/love-running/blob/c290ec4b148a9ac5725f372eefdcb49985a6133a/assets/images/lrimg9.webp);*/
+/*    background-size: cover;*/
+/*    background-position: 75%;*/
+/*    padding: 20px 10% 0 10%;*/
+/*    flex-grow: 1;*/
+/*}*/
 
 section.sign-up-form {
     max-width: 400px;
