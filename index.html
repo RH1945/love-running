@@ -11,7 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Display:ital,wght@0,100..900;1,100..900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
     <!-- Metadata-->
     <meta charset="UTF-8">
-    <meta name="description" content="Love Running, Bristol's smallest running club. Running everywhere, we find our ground">
+    <meta name="description" content="Love Running – Bristol's smallest running club. Running everywhere, we find our common ground!">
     <meta name="keywords" content="love running, run, running, sport, local, love, runner, social, club, run club">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--Stylesheet-->
@@ -22,20 +22,139 @@
 <body>
     <!--Header-->
     <header>
-        <h1>Love Running</h1>
+        <a href="index.html">
+            <h1 id="logo">Love Running</h1>
+        </a>
+        <input type="checkbox" id="nav-toggle" name="nav-toggle">
+        <label for="nav-toggle" class="nav-toggle-label">X</label>
         <nav>
-            <a href="index.html">Home</a>
-            <a href="gallery.html">Gallery</a>
-            <a href="faq.html">FAQ</a>
-            <a href="form.html">Sign Up</a>
+            <ul id="menu">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="form.html">Join us</a></li>
+                <li><a href="faq.html">F.A.Q.</a></li>
+            </ul>
         </nav>
     </header>
-
-    <!--Main content-->
+    <!-- Main content -->
     <main>
-        <p>Welcome to Love Running, Bristol's smallest running club. We run everywhere, finding our ground in the city and beyond. Join us for a community of passionate runners who share a love for the sport and the joy of exploring new routes together.</p>
+        <!-- Hero section -->
+        <section class="hero" style="
+    background: url(../assets/images/lrimg8.webp) no-repeat center center / cover;">
+            <div id="cover-text">
+                <h2>Love Running</h2>
+                <h3>Bristol Downs to Harbourside</h3>
+            </div>
+        </section>
+
+        <!-- Reasons section -->
+        <section id="reasons">
+            <h2>Why love running with us?</h2>
+            <div id="benefits">
+                <div id="benefits-physical">
+                    <div>
+                        <h3>Be healthy <i class="fa-solid fa-heart-pulse"></i></h3>
+                        <hr>
+                        <p>Running strengthens your heart and lungs, improves blood circulation, and increases oxygen intake, which can lower resting blood pressure and reduce the risk of heart disease.</p>
+                    </div>
+                    <div>
+                        <h3>Be strong <i class="fa-solid fa-dumbbell"></i></h3>
+                        <hr>
+                        <p>As a weight-bearing exercise, running stimulates bone formation and increases bone density. It also strengthens your muscles, improving overall fitness.</p>
+                    </div>
+                </div>
+                <div id="benefits-mental">
+                    <div>
+                        <h3>Be free <i class="fa-brands fa-fly"></i></h3>
+                        <hr>
+                        <p>Running improves your mood, acting as a tool to boost your day and emotional well-being.
+                            Running is an effective way to manage stress, which is a factor in developing anxiety and depression.
+                            Running betters your sleep, regular running can lead to more restful and improved sleep.
+                        </p>
+                    </div>
+                    <div>
+                        <h3>Get social <i class="fa-solid fa-globe"></i></h3>
+                        <hr>
+                        <p>Run today, run with your friends, run with strangers. Running is used as a serious team building exercise, running in sync with someone can be the seed of a long-lasting friendship </p>
+                    </div>
+                </div>
+                <div id="benefits-image">
+                    <div id="circle-cover-bg" style="background: url(../assets/images/lrimg3.webp) no-repeat top center / cover;"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Meetup times section -->
+        <section id="meetups">
+            <h2 class="hidden-heading">Meet-up Times</h2>
+            <div id="times" style="background: url(../assets/images/lrimg0.webp) no-repeat center/cover;">
+                <div>
+                    <h3>Urban <i class="fa-solid fa-city"></i></h3>
+                    <p>Monday</p>
+                    <p>5K</p>
+                    <p>The Marker Hotel</p>
+                    <p>18:30</p>
+                </div>
+                <div>
+                    <h3>Trail <i class="fa-solid fa-tree"></i></h3>
+                    <p>Wednesday</p>
+                    <p>10K</p>
+                    <p>The Phoenix Park</p>
+                    <p>18:30</p>
+                </div>
+                <div>
+                    <h3>Urban <i class="fa-solid fa-city"></i></h3>
+                    <p>Friday</p>
+                    <p>5K</p>
+                    <p>The Marker Hotel</p>
+                    <p>18:30</p>
+                </div>
+                <div>
+                    <h3>Trail <i class="fa-solid fa-tree"></i></h3>
+                    <p>Saturday</p>
+                    <p>10K</p>
+                    <p>The Phoenix Park</p>
+                    <p>09:30</p>
+                </div>
+                <div>
+                    <h3>Coffee <i class="fa-solid fa-mug-hot"></i></h3>
+                    <p>Sunday</p>
+                    <p>0K</p>
+                    <p>The Marker Hotel</p>
+                    <p>11:30</p>
+                </div>
+            </div>
+        </section>
     </main>
-    <!--Footer-->
-    <footer>Footer</footer>
+
+    <!-- Footer -->
+    <footer>
+        <ul id="social-networks">
+            <li>
+                <a href="https://www.facebook.com/" target="_blank" rel="noopener"
+                   aria-label="Visit our Facebook page (opens in a new tab)">
+                    <i class="fa-brands fa-facebook"></i></a>
+            </li>
+            <li>
+                <a href="https://www.twitter.com/" target="_blank" rel="noopener"
+                   aria-label="Visit our Twitter page (opens in a new tab)">
+                    <i class="fa-brands fa-twitter-square"></i></a>
+            </li>
+            <li>
+                <a href="https://www.youtube.com/" target="_blank" rel="noopener"
+                   aria-label="Visit our YouTube page (opens in a new tab)">
+                    <i class="fa-brands fa-youtube-square"></i></a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com/" target="_blank" rel="noopener"
+                   aria-label="Visit our Instagram page (opens in a new tab)">
+                    <i class="fa-brands fa-instagram"></i></a>
+            </li>
+        </ul>
+    </footer>
+
+    <!-- Font Awesome kit -->
+    <script src="https://kit.fontawesome.com/3b20d96fa9.js" crossorigin="anonymous"></script>
 </body>
+
 </html>
