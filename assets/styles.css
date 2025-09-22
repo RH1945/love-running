@@ -114,7 +114,7 @@ main {
 .hero {
     height: 60vh;
     width: 100%;
-    background: url("../assets/images/lrimg8.webp") no-repeat center center/cover;
+    background: url(https://github.com/RH1945/love-running/blob/c290ec4b148a9ac5725f372eefdcb49985a6133a/assets/images/lrimg8.webp) no-repeat center center/cover;
     position: relative;
 }
 
@@ -162,7 +162,7 @@ main {
 }
 
 #circle-cover-bg {
-    background: url("../assets/images/lrimg9.webp") no-repeat top center / cover;
+    background: url(https://github.com/RH1945/love-running/blob/c290ec4b148a9ac5725f372eefdcb49985a6133a/assets/images/lrimg9.webp) no-repeat top center / cover;
     height: 90vw;
     width: 90vw;
     margin-bottom: 20px;
@@ -180,7 +180,7 @@ main {
 
 /* Meetup Times section */
 #times {
-    background: url("../assets/images/lrimg0.webp") no-repeat center/cover;
+    background: url(https://github.com/RH1945/love-running/blob/c290ec4b148a9ac5725f372eefdcb49985a6133a/assets/images/lrimg0.webp) no-repeat center/cover;
     /* Handles responsivity without the need for a media query */
     display: flex;
     flex-wrap: wrap;
@@ -216,7 +216,7 @@ main {
 
 /* Form */
 #signup {
-    background-image: url("##############");
+    background-image: url(https://github.com/RH1945/love-running/blob/c290ec4b148a9ac5725f372eefdcb49985a6133a/assets/images/lrimg10.webp);
     background-size: cover;
     background-position: 75%;
     padding: 20px 10% 0 10%;
@@ -420,6 +420,45 @@ main {
 /* Specific styles*/
 .faq {
     max-width: 256px;
+    align-self: center;
+    margin-block-start: 16px;
+    margin-block-end: 24px;
+    padding: 8px;
+    border: 2px solid darkblue;
+    border-radius: 8px;
+    background-color: rgba(60, 60, 60, 0.6);
+}
+#faq-text {
+    background-image: url(https://github.com/RH1945/love-running/blob/c290ec4b148a9ac5725f372eefdcb49985a6133a/assets/images/lrimg9.webp);
+    background-size: cover;
+    background-position: 75%;
+    padding: 20px 10% 0 10%;
+    flex-grow: 1;
+}
+
+section.sign-up-form {
+    max-width: 400px;
+    align-self: center;
+    padding: 16px;
+    border: 3px solid darkblue;
+    background-color: lightyellow;
+    font-family: "Noto Sans Display", sans-serif;
+    font-size: medium;
+    margin: 8px;
+}
+.sign-up-form #sign-up-element {
+    display: flex;
+    flex-direction: column;
+    position: inherit;
+    gap: 10px;
+    border: 4px solid darkslategray;
+    margin-block-start: 16px;
+    margin-block-end: 16px;
+}
+
+/* Specific styles*/
+.faq {
+    max-width: 256px;
     align-content: center;
     margin-block-start: 16px;
     margin-block-end: 24px;
@@ -451,58 +490,3 @@ img.gallery-img{
     width: 100%;
     height: auto;
 }
-
-section.sign-up-form {
-    max-width: 400px;
-    align-self: center;
-    padding: 16px;
-    border: 3px solid darkblue;
-    background-color: lightyellow;
-    font-family: "Noto Sans Display", sans-serif;
-    font-size: medium;
-    margin: 8px;
-}
-.sign-up-form #sign-up-element {
-    display: flex;
-    flex-direction: column;
-    position: inherit;
-    gap: 10px;
-    border: 4px solid darkslategray;
-    margin-block-start: 16px;
-    margin-block-end: 16px;
-}
-
-/*!* Specific styles*!*/
-/*.faq {*/
-/*    max-width: 256px;*/
-/*    align-content: center;*/
-/*    margin-block-start: 16px;*/
-/*    margin-block-end: 24px;*/
-/*    padding: 8px;*/
-/*    border: 2px solid darkblue;*/
-/*    border-radius: 8px;*/
-/*    background-color: lightyellow;*/
-/*}*/
-/*div.image-gallery-flex {*/
-/*    padding: 2em;*/
-/*    display: grid;*/
-/*    grid-template-columns: auto auto;*/
-/*    gap: 10px;*/
-/*    height: 100%;*/
-/*    justify-content: center;*/
-/*    max-width: fit-content;*/
-/*}*/
-/*.image-gallery-flex #gallery-img{*/
-/*    display: flex;*/
-/*    max-width: 85px;*/
-/*    flex-wrap: wrap;*/
-/*    gap: 20px;*/
-/*    justify-content: center;*/
-/*    margin-block-start: 16px;*/
-/*    margin-block-end: 24px;*/
-/*    object-fit: cover;*/
-/*}*/
-/*img.gallery-img{*/
-/*    width: 100%;*/
-/*    height: auto;*/
-/*}*/

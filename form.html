@@ -11,29 +11,31 @@
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Display:ital,wght@0,100..900;1,100..900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
     <!-- Metadata-->
     <meta charset="UTF-8">
-    <meta name="description" content="Love Running, Bristol's smallest running club. Running everywhere, we find our ground">
+    <meta name="description" content="Love Running – Bristol's smallest running club. Running everywhere, we find our common ground!">
     <meta name="keywords" content="love running, run, running, sport, local, love, runner, social, club, run club">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--Stylesheet-->
     <link rel="stylesheet" href="/assets/styles.css">
     <!-- Title-->
-    <title>Sign up</title>
+    <title>Love running</title>
 </head>
 <body>
+<!--Header-->
 <header>
+    <a href="index.html">
+        <h1 id="logo">Love Running</h1>
+    </a>
+    <input type="checkbox" id="nav-toggle" name="nav-toggle">
+    <label for="nav-toggle" class="nav-toggle-label">X</label>
+    <nav>
+        <ul id="menu">
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="form.html">Join us</a></li>
+            <li><a href="faq.html">F.A.Q.</a></li>
+        </ul>
+    </nav>
 </header>
-<section class="sign-up-form">
-    <h1 id="invite">Join our run club today!</h1>
-    <form>
-        <input id="sign-up-element" type="email" placeholder="Enter your email address" required>
-        <input id="sign-up-element" type="text" placeholder="Enter your name" required>
-        <input id="sign-up-element" type="number" placeholder="Enter your age" required>
-        <input id="sign-up-element" type="text" placeholder="Enter your emergency contact">
-        <input id="sign-up-element" type="text" placeholder="Enter any medical conditions">
-        <button type="submit">Submit</button>
-    </form>
-</section>
-
 <!-- Main content -->
 <main>
     <section id="signup">
@@ -47,6 +49,9 @@
             <br>
             <label for="email-address">Email Address</label>
             <input type="email" name="email_address" id="email-address" class="text-input" required>
+            <br>
+            <label>Special Requirements</label>
+            <input type="text" name="special-requirements" id="special-requirements" class="text-input">
             <br>
             <div class="radio-buttons">
                 <div>
@@ -65,37 +70,7 @@
             <button type="submit" class="join-button">Let's Run!</button>
         </form>
     </section>
-    <main>
-        <section id="signup">
-            <form id="signup-form" method="POST" action="https://formdump.codeinstitute.net">
-                <h2><i class="fa-solid fa-heartbeat"></i> Let's get you signed up!</h2>
-                <label for="first-name">First Name</label>
-                <input type="text" name="first_name" id="first-name" class="text-input" required>
-                <br>
-                <label for="last-name">Last Name</label>
-                <input type="text" name="last_name" id="last-name" class="text-input" required>
-                <br>
-                <label for="email-address">Email Address</label>
-                <input type="email" name="email_address" id="email-address" class="text-input" required>
-                <br>
-                <div class="radio-buttons">
-                    <div>
-                        <label for="road">Road</label>
-                        <input type="radio" name="running_preference" id="road" value="road" required checked>
-                    </div>
-                    <div>
-                        <label for="trail">Trail</label>
-                        <input type="radio" name="running_preference" id="trail" value="trail" required>
-                    </div>
-                    <div>
-                        <label for="both">Both</label>
-                        <input type="radio" name="running_preference" id="both" value="both" required>
-                    </div>
-                </div>
-                <button type="submit" class="join-button">Let's Run!</button>
-            </form>
-        </section>
-    </main>
+</main>
 
     <!-- Footer -->
     <footer>
@@ -122,6 +97,5 @@
             </li>
         </ul>
     </footer>
-</main>
 </body>
 </html>
