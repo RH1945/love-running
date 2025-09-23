@@ -114,7 +114,7 @@ main {
 .hero {
     height: 60vh;
     width: 100%;
-    background: url(https://github.com/RH1945/love-running/blob/c290ec4b148a9ac5725f372eefdcb49985a6133a/assets/images/lrimg8.webp) no-repeat center center/cover;
+    background: url(assets/images/lrimg8.webp) no-repeat center center/cover;
     position: relative;
 }
 
@@ -162,7 +162,7 @@ main {
 }
 
 #circle-cover-bg {
-    background: url(https://github.com/RH1945/love-running/blob/c290ec4b148a9ac5725f372eefdcb49985a6133a/assets/images/lrimg9.webp) no-repeat top center / cover;
+    background: url(assets/images/lrimg9.webp) no-repeat top center / cover;
     height: 90vw;
     width: 90vw;
     margin-bottom: 20px;
@@ -180,7 +180,7 @@ main {
 
 /* Meetup Times section */
 #times {
-    background: url(https://github.com/RH1945/love-running/blob/c290ec4b148a9ac5725f372eefdcb49985a6133a/assets/images/lrimg0.webp) no-repeat center/cover;
+    background: url(assets/images/lrimg0.webp) no-repeat center/cover;
     /* Handles responsivity without the need for a media query */
     display: flex;
     flex-wrap: wrap;
@@ -216,7 +216,7 @@ main {
 
 /* Form */
 #signup {
-    background-image: url(https://github.com/RH1945/love-running/blob/c290ec4b148a9ac5725f372eefdcb49985a6133a/assets/images/lrimg10.webp);
+    background-image: url(assets/images/lrimg10.webp);
     background-size: cover;
     background-position: 75%;
     padding: 20px 10% 0 10%;
